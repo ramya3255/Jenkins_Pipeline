@@ -1,0 +1,15 @@
+pipeline{
+agent any
+stages('Build'){
+echo "buiding project"
+}
+stages('Deploy'){
+echo " deploying project"
+}
+stages('Test'){
+echo "testing project"
+}
+stages('Release'){
+echo "releasing  project"
+}
+}
